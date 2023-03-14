@@ -1,21 +1,7 @@
 # FizzBuzz
 
-**TODO: Add description**
+Projeto feito no curso de Elixir do Rafael Camarda.
 
-## Installation
+O programa foi feito em Elixir e lê um arquivo de números, se o arquivo é inválido ele retorna um erro, se é um arquivo válido ele retorna um lista com esses números, mas os que são divisíveis por 3 são substituídos por fizz, quando são divisíveis por 5 são substituídos por buzz e quando são divisíveis por 3 e por 5 são substituídos por fizzbuzz.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `fizz_buzz` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:fizz_buzz, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/fizz_buzz>.
-
+Esse programa serviu para entender sobre a sintaxe do Elixir e sobre pattern matching.
